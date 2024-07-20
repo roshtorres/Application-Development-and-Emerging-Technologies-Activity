@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF5DB"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/songName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="LONDON BOY"
+                android:textColor="#141413"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/artistName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="by Taylor Swift"
+                android:textColor="#141413"
+                android:textSize="14sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/paragraph1"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="We can go drivin' in, on my scooter\nUh, you know, just riding in London\nAlright"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph2"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="I love my hometown as much as Motown, I love SoCal\nAnd you know I love Springsteen, faded blue jeans, Tennessee whiskey\nBut something happened, I heard him laughing\nI saw the dimples first and then I heard the accent\nThey say home is where the heart is\nBut that's not where mine lives"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph3"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="You know I love a London boy\nI enjoy walking Camden Market in the afternoon\nHe likes my American smile\nLike a child when our eyes meet, darling, I fancy you\nTook me back to Highgate, met all of his best mates\nSo I guess all the rumors are true\nYou know I love a London boy\nBoy, I fancy you (ooh)"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph4"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="And now I love high tea, stories from uni, and the West End\nYou can find me in the pub, we are watching rugby with his school friends\nShow me a gray sky, a rainy cab ride\nBabe, don't threaten me with a good time\nThey say home is where the heart is\nBut God, I love the English"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph5"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="You know I love a London boy\nI enjoy nights in Brixton, Shoreditch in the afternoon\nHe likes my American smile\nLike a child when our eyes meet, darling, I fancy you\nTook me back to Highgate, met all of his best mates\nSo I guess all the rumors are true\nYou know I love a London boy\nBoy, I fancy you"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph6"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="So please show me Hackney\nDoesn't have to be Louis V up on Bond Street\nJust wanna be with you\nWanna be with you\nStick with me, I'm your queen\nLike a Tennessee Stella McCartney on the Heath\nJust wanna be with you (wanna be with you)\nWanna be with you (oh)"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph7"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="You know I love a London boy\nI enjoy walking SoHo, drinking in the afternoon (yeah)\nHe likes my American smile\nLike a child when our eyes meet, darling, I fancy you (you)\nTook me back to Highgate, met all of his best mates\nSo I guess all the rumors are true (yeah)\nYou know I love a London boy (oh)\nBoy (oh), I fancy you (I fancy you, ooh)"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph8"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="So please show me Hackney\nDoesn't have to be Louis V up on Bond Street\nJust wanna be with you\nI, I, I fancy you, oh\nStick with me, I'm your queen\nLike a Tennessee Stella McCartney on the Heath\nJust wanna be with you (ooh)\nWanna be with you\nI fancy you (yeah), fancy you\nOh, ah"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#FE5F55"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="BACK"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFCBCE"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserrat_extrabold"
+        android:text="STUDENT REGISTRATION"
+        android:textColor="#303655"
+        android:textSize="23sp"
+        tools:textAlignment="center" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Name:"
+        android:textColor="#303655"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextTextName"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:background="#EAEAEA"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#303655"
+        android:textSize="20sp" />/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textView_program"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Program:"
+        android:textColor="#303655"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextTextProgram"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:background="#EAEAEA"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#303655"
+        android:textSize="20sp" />/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textView_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Course"
+        android:textColor="#303655"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/textView_course1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Course 1:"
+        android:textColor="#303655"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextTextCourse1"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:background="#EAEAEA"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#303655"
+        android:textSize="20sp" />/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/textView_course2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Course 2:"
+        android:textColor="#303655"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextTextCourse2"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:background="#EAEAEA"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#303655"
+        android:textSize="20sp" />/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/textView_course3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Course 3:"
+        android:textColor="#303655"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextTextCourse3"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:background="#EAEAEA"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#303655"
+        android:textSize="20sp" />/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#365777"
+        android:fontFamily="@font/poppins_bold"
+        android:text="REGISTER"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="by: Rosh Hashana S. Torres"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_black"
+        android:text="CALCULATOR"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/number1"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="Number 1:"
+        android:textColor="#6D6E72"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/inputNumber1"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:fontFamily="@font/poppins_medium"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#6D6E72"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/number2"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="Number 2:"
+        android:textColor="#6D6E72"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/inputNumber2"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:fontFamily="@font/poppins_medium"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#6D6E72"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="Result:"
+        android:textColor="#6D6E72"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/output"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:fontFamily="@font/poppins_medium"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#6D6E72"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#8EC9BB"
+        android:fontFamily="@font/poppins_bold"
+        android:onClick="Add"
+        android:text="ADD"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/subtractButton"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#70AE98"
+        android:fontFamily="@font/poppins_bold"
+        android:onClick="Subtract"
+        android:text="SUBTRACT"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/multiplyButton"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#E6B655"
+        android:fontFamily="@font/poppins_bold"
+        android:onClick="Multiply"
+        android:text="MULTIPLY"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/divideButton"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#F0A35E"
+        android:fontFamily="@font/poppins_bold"
+        android:onClick="Divide"
+        android:text="DIVIDE"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#CA7E8D"
+        android:fontFamily="@font/poppins_bold"
+        android:onClick="Clear"
+        android:text="CLEAR"
+        android:textSize="20sp" />
+
+</LinearLayout>

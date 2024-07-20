@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF5DB"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/songName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="YOUR LOVE"
+                android:textColor="#141413"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/artistName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="by Little Mix"
+                android:textColor="#141413"
+                android:textSize="14sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/paragraph1"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="Luxurious lovin' like Egyptian cotton\nIf I ain't got nothin', least I got you\nHighway with the top down, a milli in the bank account\nIt ain't what I got, but it's what you do"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph2"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="Deeper than oceans, the sweetest devotion, it's all I need\nYou pull me close and there's no way that I can describe\nWhat your love make me feel like, oh\nYour love make me feel like, oh\nYour love make me feel like, oh\nDirty dancing in the moonlight\nThat's what your love make me feel like, oh\nYour love make me feel like, oh\nYour love make me feel like, oh\nCome and kiss me like the first time\nThat's what your love make me feel like"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph3"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="Late up on Sunday, ain't workin' on Monday\nLet's pack up and run away, just me and you\nCome closer 'cause I want it all over my body\nBoy, there ain't no heartache you can't undo"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph4"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="Deeper than oceans, the sweetest devotion, it's all I need\nYou pull me close and there's no way that I can describe\nWhat your love make me feel like, oh\nYour love make me feel like, oh\nYour love make me feel like, oh\nDirty dancing in the moonlight\nThat's what your love make me feel like, oh\nYour love make me feel like, oh\nYour love make me feel like, oh\nCome and kiss me like the first time\nThat's what your love make me feel like\nYour love, your love, your love, your love\nYour love, your love, your love, your love\nYour love, your love, your love, your love\nThat's what your love make me feel like\nYour love, your love, your love, your love\nYour love, your love, your love, your love\nYour love, your love, your love, your love"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph5"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="Like whoa, if you know you're in love\nAnd it feel like the one\nThen put 'em up, put 'em up in the sky\nMake me sing again\nWhoa, you're the one that I need\nTake my hand baby, please\nThen put 'em up, put 'em up in the sky\nMake me sing again"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph6"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="I ain't even think of leaving sometimes\nI ain't even think of letting go\nI ain't ever thought of going nowhere\nI don't even see it down the road\n'Cause we're collectin' moments\nTattoos on my mind\nI ain't even think of leaving sometimes\nI ain't even think of letting go\nNot even sometimes, babe"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph7"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="Your love make me feel like\nYour love make me feel like\nYour love make me feel like\nYour love make me feel like\nYour love make me feel like\nDirty dancing in the moonlight\nThat's what your love make me feel like, oh\nYour love make me feel like, oh\nYour love make me feel like, oh\nCome and kiss me like the first time\nThat's what your love make me feel like\nYour love, your love, your love, your love (If you know you're in love)\nYour love, your love, your love, your love (And it feel like the one)\nYour love, your love, your love, your love (Yeah baby) (Your love)\nYour love, your love, your love, your love\nYour love, your love, your love, your love\nYour love, your love, your love, your love"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph8"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="Your love, your love, your love"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#FE5F55"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="BACK"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

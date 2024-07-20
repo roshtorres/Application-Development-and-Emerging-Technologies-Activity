@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF5DB"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/songName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="TWO GHOSTS"
+                android:textColor="#141413"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/artistName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="by Harry Styles"
+                android:textColor="#141413"
+                android:textSize="14sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/paragraph1"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="Same lips red, same eyes blue\nSame white shirt, couple more tattoos\nBut it's not you and it's not me\nTastes so sweet, looks so real\nSounds like something that I used to feel\nBut I can't touch what I see"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph2"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="We're not who we used to be\nWe're not who we used to be\nWe're just two ghosts standing in the place of you and me\nTrying to remember how it feels to have a heartbeat"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph3"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="The fridge light washes this room white\nMoon dances over your good side\nAnd this was all we used to need\nTongue-tied like we've never known\nTelling those stories we already told\n'Cause we don't say what we really mean"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph4"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="We're not who we used to be\nWe're not who we used to be\nWe're just two ghosts standing in the place of you and me\nWe're not who we used to be\nWe're not who we used to be\nWe're just two ghosts swimming in a glass half empty\nTrying to remember how it feels to have a heartbeat"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph5"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="We're not who we used to be\nWe're not who we used to be\nWe're just two ghosts standing in the place of you and me\nWe're not who we used to be\nWe don't see what we used to see\nWe're just two ghosts swimming in a glass half empty\nTrying to remember how it feels to have a heartbeat"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph6"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="Trying to remember how it feels to have a heartbeat"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph7"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="I'm just trying to remember how it feels to have a heartbeat"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#FE5F55"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="BACK"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

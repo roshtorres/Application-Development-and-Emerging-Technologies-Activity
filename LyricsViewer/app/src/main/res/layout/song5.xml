@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF5DB"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/songName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="SEEING BLIND"
+                android:textColor="#141413"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/artistName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="by Niall Horan"
+                android:textColor="#141413"
+                android:textSize="14sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/paragraph1"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="I have seen, seen it all in paper dreams\nWatched it all full on the screen\nBut never understood\nI have heard, have heard you speak a million words\nNow you're talking to me first\nNever thought you would"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph2"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="Oh, my, my, you just took me by surprise\nAnd I can't believe my eyes\nOh, I must be seeing blind\nOh no, my, you are too good to be all mine\nNow I'm looking in your eyes\nOh, I must be seeing blind"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph3"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="I was young, my heart was always on the run\nBut you made lovin' fun\nI never knew it could be, ey\nI see you from a different point of view\nFeel it's too good to be true\nI found my missing piece"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph4"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="Oh, my, my, you just took me by surprise\nAnd I can't believe my eyes\nOh, I must be seeing blind\nOh no, my, you are too good to be all mine\nNow I'm looking in your eyes\nOh, I must be seeing blind\nOh, no"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph5"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="Oh, my, my\nWhen I look into your eyes\nIt's a sight I can't describe\nOh, I must be seeing blind"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph6"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="Oh, my, my, you just took me by surprise\nAnd I can't believe my eyes\nOh, I must be seeing blind\nOh no, my, you are too good to be all mine\nNow I'm looking in your eyes\nOh, I must be seeing blind\nOh, I must be seeing blind"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#FE5F55"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="BACK"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

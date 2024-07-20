@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF5DB"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/songName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="END OF THE DAY"
+                android:textColor="#141413"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/artistName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="by One Direction"
+                android:textColor="#141413"
+                android:textSize="14sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/paragraph1"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="I told her that I loved her, was not sure if she heard\nThe roof was pretty windy, and she didn't say a word\nParty dying downstairs, had nothing left to do\nJust me, her and the moon"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph2"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="I said, 'You're on fire, babe'\nThen down came the lightning on me\nLove can be frightening for sure"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph3"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="All I know at the end of the day\nIs you want what you want, and you say what you say\nAnd you follow your heart, even though it'll break sometimes\nAll I know at the end of the day\nIs you love who you love, there ain't no other way\nIf there's something I've learned from a million mistakes\nYou're the one that I want at the end of the day"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph4"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="At the end of the day\n(Oh-oh, oh, oh-oh, oh)\nYou're the one that I want at the end of the day"
+                android:textAlignment="center"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph5"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="She said the night was over, I said it's forever\n20 minutes later, wound up in the hospital\nThe priest thinks it's the devil, my mum thinks it's the flu\nBut, girl, it's only you"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph6"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="I said, 'You're on fire, babe'\nThen down came the lightning on me\nLove can be frightening for sure"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph7"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="All I know at the end of the day\nIs you want what you want, and you say what you say\nAnd you follow your heart, even though it'll break sometimes\nAll I know at the end of the day\nIs you love who you love, there ain't no other way\nIf there's something I've learned from a million mistakes\nYou're the one that I want at the end of the day (at the end of the day)"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph8"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="When the sun goes down, I\nKnow that you and me, and everything will be alright\nAnd when the city's sleeping\nYou and I can stay awake and keep on dreaming\nYou and I can stay awake and keep on dreaming"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph9"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="All I know at the end of the day\nIs you want what you want, and you say what you say\nAnd you follow your heart, even though it'll break sometimes\nAll I know at the end of the day\nIs you love who you love, there ain't no other way\nIf there's something I've learned from a million mistakes\nYou're the one that I want at the end of the day (at the end of the day, yeah)"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/paragraph10"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="At the end of the day\n(Oh-oh, oh, oh-oh, oh)\nYou're the one that I want at the end of the day (at the end of the day)\n(Oh, oh, oh-oh, oh-oh, oh, oh-oh)\n(Oh-oh, oh, oh-oh, oh)\nYou're the one that I want at the end of the day"
+                android:textAlignment="center"
+                android:textColor="#141413"
+                tools:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#FE5F55"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="BACK"
+                android:textColor="#141413" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
